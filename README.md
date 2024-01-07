@@ -84,6 +84,5 @@ If you find this code useful, please consider citing the original paper:
 
 Please make sure to review and comply with the terms of the M4Raw, fastMRI and DlDegibbs project's license when using this code.
 
-
 # Acknowledgements
-Special thanks to the contributors of the original code libraries used in this project. Your work has been invaluable, and I appreciate the collaborative efforts of the entire community.
+Special thanks to the contributors of the original code libraries used in this project. The work done by these contributors has been invaluable, and appreciation goes to the collaborative efforts of the entire community.
