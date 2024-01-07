@@ -4,8 +4,8 @@ This study involves the implementation and comparison of three distinct deep lea
 Implemented denoising algorithms include NAFNet model from M4Raw, banding removal Unet Model from fastMRI, Unetwavelet model from DlDegibbs, and conventional BM3D denoising model. The utilized dataset is the publicly available M4RawV1.5 dataset, with the training subset containing 1024 samples. The original validation set (240 samples) has been partitioned into a validation set (112 samples) and a test set (128 samples), maintaining a balanced training set: validation set: test set ratio of 8:1:1. 
 
 Denoising efficacy is measured using PSNR and SSIM metrics. Each algorithm undergoes the following evaluations:
-1. Systematic processing of the M4Raw test set (formatted in H5), providing mean and standard deviation values for PSNR and SSIM.
-2. Preservation of denoised effects for individual images (formatted in DICOM, without labels), followed by the calculation of aggregate processing time.
+* Systematic processing of the M4Raw test set (formatted in H5), providing mean and standard deviation values for PSNR and SSIM.
+* Preservation of denoised effects for individual images (formatted in DICOM, without labels), followed by the calculation of aggregate processing time.
 
 These evaluations aim to provide a comprehensive assessment of the practical effectiveness of deep learning models in the context of MRI denoising.
 
@@ -29,7 +29,7 @@ These evaluations aim to provide a comprehensive assessment of the practical eff
   * Jupter notebook "M4Raw_tutorial.ipynb": This notebook shows how to read the M4Raw dataset and apply some simple transformations to the data.
   * Jupter notebook "BM3D_process_all.ipynb": This notebook demonstrates how to batch process the M4Raw test set using BM3D, and output the corresponding mean and standard deviation of PSNR and SSIM.
   * Jupter notebook "dicom_test.ipynb": This notebook demonstrates how to process a new type of MRI image data using various algorithms and save the denoised results in well-formatted image layouts. It's important to note that the dataset used in this study consists of hospital MRI scan images in DICOM file format, with each patient having scan results in four modes: FLAIR-Axial, T1WI-Axial, T1WI-Sagittal, and T2WI-Axial. You can make corresponding modifications based on your own dataset directory.
-  * I have placed the well-trained models mentioned above, along with the reorganized validation and test sets of M4RawV1.5, in a separate repository. If you're looking to get started quickly, feel free to visit here.
+  * The well-trained models mentioned above, along with the reorganized validation and test sets of M4RawV1.5, have been placed in a separate repository. If you're looking to get started quickly, feel free to visit here.
 
 # Cite
 
