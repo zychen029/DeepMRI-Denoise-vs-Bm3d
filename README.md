@@ -18,7 +18,7 @@ These evaluations aim to provide a comprehensive assessment of the practical eff
 
 * **fastMRI banding_removal**
   * [MRI Banding Removal via Adversarial Training](https://api.semanticscholar.org/CorpusID:210861018)
-  * This project includes the `banding_removal` module from the [Facebook Research - fastMRI](https://github.com/facebookresearch/fastMRI/tree/main/banding_removal) project.
+  * This project includes the `unet` module for banding removal from the [Facebook Research - fastMRI](https://github.com/facebookresearch/fastMRI/tree/main/banding_removal) project.
 
 
 * **DlDegibbs Unetwavelet**
