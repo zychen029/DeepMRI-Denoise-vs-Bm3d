@@ -25,7 +25,7 @@ These evaluations aim to provide a comprehensive assessment of the practical eff
   * [Training a Neural Network for Gibbs and Noise Removal in Diffusion MRI](https://api.semanticscholar.org/CorpusID:150373937)
   * The code for this whitepaper is in the [/mmuckley/dldegibbs](https://github.com/mmuckley/dldegibbs) GitHub repo.
 
-# Brief Description
+# Brief
   * Jupter notebook "M4Raw_tutorial.ipynb": This notebook shows how to read the M4Raw dataset and apply some simple transformations to the data.
   * Jupter notebook "BM3D_process_all.ipynb": This notebook demonstrates how to batch process the M4Raw test set using BM3D, and output the corresponding mean and standard deviation of PSNR and SSIM.
   * Jupter notebook "dicom_test.ipynb": This notebook demonstrates how to process a new type of MRI image data using various algorithms and save the denoised results in well-formatted image layouts. It's important to note that the dataset used in this study consists of hospital MRI scan images in DICOM file format, with each patient having scan results in four modes: FLAIR-Axial, T1WI-Axial, T1WI-Sagittal, and T2WI-Axial. You can make corresponding modifications based on your own dataset directory.
