@@ -29,6 +29,7 @@ These evaluations aim to provide a comprehensive assessment of the practical eff
   * Jupter notebook "M4Raw_tutorial.ipynb": This notebook shows how to read the M4Raw dataset and apply some simple transformations to the data.
   * Jupter notebook "BM3D_process_all.ipynb": This notebook demonstrates how to batch process the M4Raw test set using BM3D, and output the corresponding mean and standard deviation of PSNR and SSIM.
   * Jupter notebook "dicom_test.ipynb": This notebook demonstrates how to process a new type of MRI image data using various algorithms and save the denoised results in well-formatted image layouts. It's important to note that the dataset used in this study consists of hospital MRI scan images in DICOM file format, with each patient having scan results in four modes: FLAIR-Axial, T1WI-Axial, T1WI-Sagittal, and T2WI-Axial. You can make corresponding modifications based on your own dataset directory.
+  * I have placed the well-trained models mentioned above, along with the reorganized validation and test sets of M4RawV1.5, in a separate repository. If you're looking to get started quickly, feel free to visit here.
 
 # Cite
 
@@ -81,5 +82,4 @@ Please make sure to review and comply with the terms of the M4Raw, fastMRI and D
 
 
 # Acknowledgements
-
-Special thanks to the contributors of the original code libraries that were used in this project! We appreciate the collaborative efforts of the entire community.
+Special thanks to the contributors of the original code libraries used in this project. Your work has been invaluable, and I appreciate the collaborative efforts of the entire community.
