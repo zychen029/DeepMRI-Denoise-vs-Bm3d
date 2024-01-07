@@ -1,5 +1,5 @@
 # DeepMRI-Denoise-vs-BM3D
-This study involves the implementation and comparison of three distinct deep learning-based denoising models for MRI under different model parameters, whose objective is to assist authors proposing superior MRI denoising algorithms by facilitating a comparative reimplementation against traditional methods. Please Note that this project is intended for learning purposes only.
+This study involves the implementation and comparison of three distinct deep learning-based denoising models for MRI under different model parameters. The objective is to assist authors proposing superior MRI denoising algorithms by facilitating a comparative reimplementation against conventional methods. Please note that this project is solely intended for learning purposes.
 
 Implemented denoising algorithms include NAFNet model from M4Raw, banding removal Unet Model from fastMRI, Unetwavelet model from DlDegibbs, and conventional BM3D denoising model. The utilized dataset is the publicly available M4RawV1.5 dataset, with the training subset containing 1024 samples. The original validation set (240 samples) has been partitioned into a validation set (112 samples) and a test set (128 samples), maintaining a balanced training set: validation set: test set ratio of 8:1:1. 
 
