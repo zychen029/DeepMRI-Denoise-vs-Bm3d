@@ -33,7 +33,7 @@ Here is a brief overview of the project components:
 - **M4Raw_tutorial.ipynb:** This notebook shows how to read the M4Raw dataset and apply some simple transformations to the data.
 - **BM3D_process_all.ipynb:** This notebook demonstrates how to batch process the M4Raw test set using BM3D, and output the corresponding mean and standard deviation of PSNR and SSIM.
 - **dicom_test.ipynb:** This notebook demonstrates how to process a new type of MRI image data using various algorithms and save the denoised results in well-formatted image layouts. Please note that the dataset utilized in this study comprises hospital MRI scan images in DICOM file format. Each patient's scan results are available in four modes: FLAIR-Axial, T1WI-Axial, T1WI-Sagittal, and T2WI-Axial. You can make corresponding modifications based on your own dataset directory.
-* The well-trained models mentioned above, along with the reorganized validation and test sets of M4RawV1.5, have been placed in a separate repository. If you are looking to get started quickly, feel free to visit [here](https://github.com/zychen029/MRI_Denoising_Models_Weights).
+* The well-trained models mentioned above, along with the reorganized validation and test sets of M4RawV1.5, have been placed in a separate repository. If you are looking to get started quickly, feel free to visit [here](https://github.com/zychen029/DeepMRI-models-weights).
 
 # Cite
 
